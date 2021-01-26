@@ -4,9 +4,19 @@
   box-sizing: border-box;
 }
 
+/* CENTRATURA PAGINA */
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
 /* REGOLAZIONE DELLA GRANDEZZA DI DIV e CONTENITORE */
 
 div.menu-principale {
+
   height: 10vh;
   background-color: #ff66ff;
   margin-top:2vh;
@@ -21,7 +31,9 @@ div.sotto-menu {
 div.contenitore {
   height: 45vh;
   background-color: #1ab2ff;
-  margin-top:2vh;
+  margin:2vh;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 div.finale {
@@ -45,29 +57,22 @@ div.top {
   height: 20%;
   background-color: #cce6ff;
   margin-bottom: 1%;
-
 }
 
 .content {
-  border: 1px solid black;
-  height: 70%;
-  width: 15vw;
-  background-color: #cce6ff;
-}
 
-.content.left {
+  height: 70%;
+  width: 15%;
+  background-color: #cce6ff;
   float: left;
 }
 
-.content.right {
-  float: right;
-}
-
 .middle {
-  border: 1px solid black;
+  /* quando metterò il contenuto potrò togliere l'altezza, perchè sarà data dal contenuto */
   background-color: #cce6ff;
   height: 70%;
-  width: 60vw;
+  width: 60%;
   float:left;
-  margin-left: 5vw;
+  margin-left: 5%;
+  margin-right: 5%;
 }
